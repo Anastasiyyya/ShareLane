@@ -24,7 +24,6 @@ public class ShareLaneTest {
         driver.findElement(By.name("password1")).sendKeys("123456789");
         driver.findElement(By.name("password2")).sendKeys("123456789");
         driver.findElement(By.xpath("//*[@value='Register']")).click();
-        driver.findElement(By.xpath("//*[@value='Register']")).click();
 
         WebDriver driverEmpty = new ChromeDriver();
         driverEmpty.get("https://www.sharelane.com/cgi-bin/register.py");
