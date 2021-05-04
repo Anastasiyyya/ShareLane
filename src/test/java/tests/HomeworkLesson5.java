@@ -5,10 +5,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class Homework_lesson5 {
+public class HomeworkLesson5 {
 
     @Test
-    public void clickRegister(){
+    public void clickRegisterTest(){
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.sharelane.com/cgi-bin/register.py");
@@ -45,7 +45,7 @@ public class Homework_lesson5 {
     }
 
     @Test
-    public void checkEmail(){
+    public void checkEmailTest(){
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.sharelane.com/cgi-bin/register.py");
@@ -83,7 +83,7 @@ public class Homework_lesson5 {
     }
 
     @Test
-    public void FieldZipCodeTest() {
+    public void fieldZipCodeTest() {
         int number;
         do {
             number = (int) (Math.random() * 100000);
